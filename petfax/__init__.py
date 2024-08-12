@@ -1,6 +1,7 @@
 # config                    
 from flask import Flask
 
+
 # factory
 def create_app():
     app = Flask(__name__)
@@ -20,3 +21,4 @@ def create_app():
 
     # return the app 
     return app
+
